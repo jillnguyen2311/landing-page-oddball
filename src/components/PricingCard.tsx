@@ -1,3 +1,5 @@
+// /components/PricingCard.tsx
+import PropTypes from 'prop-types';
 import Spline from '@splinetool/react-spline';
 
 export default function PricingCard({ type, price, features, splineScene }) {
@@ -19,3 +21,10 @@ export default function PricingCard({ type, price, features, splineScene }) {
     </div>
   );
 }
+
+PricingCard.propTypes = {
+  type: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
+  features: PropTypes.arrayOf(PropTypes.string).isRequired,
+  splineScene: PropTypes.string.isRequired,
+};
