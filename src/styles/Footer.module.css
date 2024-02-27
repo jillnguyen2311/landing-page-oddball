@@ -1,0 +1,9 @@
+.footer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: inline-block;
+    background-color: #FC9F5B;
+    padding: 10px;
+}
