@@ -11,7 +11,7 @@ interface PricingCardProps {
 const PricingCard: React.FC<PricingCardProps> = ({ type, price, features, splineScene }: PricingCardProps) => {
   return (
     <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 px-2 mb-6">
-      <div className="bg-white shadow-md rounded-lg overflow-hidden border border-gray-200">
+      <div className="bg-white shadow-md rounded-lg overflow-hidden border border-green-300">
         <div className="px-4 py-6">
           <h2 className="text-lg font-semibold mb-2">{type}</h2>
           <p className="text-2xl font-bold mb-2">{price}</p>

@@ -10,7 +10,7 @@ export default function LandingPage() {
   return (
     <main>
       <Head>
-        <title>Landing Page</title>
+        <title>OddBall Landing Page</title>
       </Head>
 
       <Header />
